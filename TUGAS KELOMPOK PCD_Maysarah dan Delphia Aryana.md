@@ -1,4 +1,4 @@
-## Tugas Sistem Operasi
+## Tugas Pemrosesan Citra Digital
 Maysarah (2110131120006) <br>
 Delphia Aryana (2110131220012)
 <br><br>
