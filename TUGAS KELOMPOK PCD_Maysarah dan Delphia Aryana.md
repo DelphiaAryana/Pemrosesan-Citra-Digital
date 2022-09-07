@@ -3,10 +3,12 @@ Maysarah (2110131120006) <br>
 Delphia Aryana (2110131220012)
 <br><br>
 
-# CARA KERJA USB WEBCAM
-![gambar](https://i0.wp.com/www.jurnalponsel.com/wp-content/uploads/2018/07/Cara-Kerja-Webcame-Lengkap.jpg?w=600&ssl=1)
+# CARA KERJA WEBCAM
+![gambar](https://i0.wp.com/www.jurnalponsel.com/wp-content/uploads/2018/07/Webcam.jpg?ssl=1)
 
-Webcam adalah kamera kompak yang bisa dipasangkan ke komputer. Di laptop kamera ini sudah terpasang secara build-in. Mirip dengan kamera pada umumnya, webcam bisa menangkap gambar untuk membuat foto dan membuat rekaman video. hebatnya lagi, webcam bisa mengirim gambar secara real-time dengan bantuan koneksi internet.
+Webcam adalah kamera kompak yang bisa dipasangkan ke komputer. Di laptop kamera ini sudah terpasang secara build-in. Kemampuanya sama seperti kamera digital lainya, seperti mengambil gambar dan merekam video. Hanya saja, webcam dilengkapi pula dengan kemampuan merekan dan mengambil gambar secara live. Artinya, webcam bisa mengirim gambar secara real-time dengan bantuan koneksi internet. <br>
+
+![gambar](https://i0.wp.com/www.jurnalponsel.com/wp-content/uploads/2018/07/Cara-Kerja-Webcame-Lengkap.jpg?w=600&ssl=1)
 
 - Webcam bekerja dengan cara menangkap cahaya melalui lensa webcam yang terpasang di microchip penerima gambar. Umumnya microchip ini menggunakan teknologi Charge-Couple Device (CCD) atau CMOS.
 - Hasil dari penangkapan gambar yang dilakukan oleh lensa webcam bisa langsung diolah secara digital atau langsung disebar luaskan ke berbagai media melalui internet.<br><br>
