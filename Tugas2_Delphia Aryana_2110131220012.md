@@ -7,6 +7,10 @@ NIM : 2110131220012
 <h2 align="center">Eksplorasi <i>Octave</i> dengan <i>Package Image</i></h2>
 <hr>
 
+Untuk mengeksplorasi, saya menggunakan gambar dengan dimensi 32x32x3.
+
+<p align="center"><img src="img/photo1.png" width="700px"></p>
+
 Seperti yang kita ketahui, sebuah gambar memiliki 3 layer warna, yaitu merah _(red)_, hijau _(green)_ dan biru _(blue)_. Perhatikan gambar di bawah ini :
 
 1. Gambar dan Histogram Dasar
