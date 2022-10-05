@@ -96,7 +96,7 @@ Berikut merupakan contoh menghasilkan gambar halftoning digital dari PAINTER men
 
 <br>
 
-### Mengapa hasil dithering dengan matriks dither besar lebih baik dari matriks dither kecil?
+## Mengapa hasil dithering dengan matriks dither besar lebih baik dari matriks dither kecil?
 
 <p align="justify">Perbedaan antara keluaran yang dihasilkan antara matriks dithering kecil dan matriks dithering besar terletak pada sensitifitas nilai piksel aslinya. Contohnya pada 4 x 4 matriks dithering dengan 16 x 16 matriks dithering. Citra yang dihasilkan dari penggunaaan matriks 4x4 memiliki pola halftone yang kurang dibandingkan dengan citra yang diproses menggunakan matriks dithering 16x16. Karena itu hasil dari citra dengan 4x4 matriks dithering memiliki banyak daerah dengan pola yang sama, sehingga hasil yang ditampilkan menjadi kurang baik dibandingkan dithering dengan matriks 16 x 16.
 
