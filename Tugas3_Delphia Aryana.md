@@ -80,13 +80,13 @@ Berikut merupakan contoh menghasilkan gambar halftoning digital dari PAINTER men
 
 ## Menentukan Pola pada Patterning dan Dithering
 
-1. Patterning
+__1. Patterning__
 
 <p align="justify">Untuk mengetahui banyaknya pola pada patterning, dapat langsung kita tentukan dengan menghitung banyaknya font biner atau pattern pengganti terlebih dahulu kemudian ditambahkan dengan 1. Contohnya, saat kita menggunakan 4 x 4 font biner, maka banyaknya pola didapat adalah 17 pola. Pola yang ada pada patterning tidak boleh sama, pola yang sudah ada tidak boleh digunakan lagi (diputar dianggap sama).
 
 <p align="center"><img src="img/gambar6.png" width="400px">
 
-2. Dithering
+__2. Dithering__
 
 Mungkin saja kita membuat ilusi dari beberapa tingkat keabuan di dalam sebuah citra biner yang dalam kenyataanya hanya terdiri dari dua tingkat abu-abu. Hal ini karena sistem visual manusia cenderung meratakan suatu area di sekitar piksel, bukan melihat setiap piksel secara sendiri-sendiri.
 
