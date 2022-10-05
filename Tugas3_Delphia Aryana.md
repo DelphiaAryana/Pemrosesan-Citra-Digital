@@ -88,23 +88,27 @@ Berikut merupakan contoh menghasilkan gambar halftoning digital dari PAINTER men
 
 2. Dithering
 
+Mungkin saja kita membuat ilusi dari beberapa tingkat keabuan di dalam sebuah citra biner yang dalam kenyataanya hanya terdiri dari dua tingkat abu-abu. Hal ini karena sistem visual manusia cenderung meratakan suatu area di sekitar piksel, bukan melihat setiap piksel secara sendiri-sendiri.
+
+Untuk sebagian besar tujuan dithering, cukup menambahkan nilai ambang batas ke setiap piksel (tanpa melakukan normalisasi dengan mengurangi 1⁄2), atau secara setara, untuk membandingkan nilai piksel dengan ambang batas: jika nilai kecerahan piksel kurang dari nomor di sel matriks yang sesuai, plot piksel itu hitam, jika tidak, plot putih.
+
+<p align="center"><img src="img/gambar5.png" width="800px">
+
 <br>
 
 ## Menentukan Matriks Dithering (Matriks Treshold)
 
-<p align="justify">Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra. Dalam proses ini dibutuhkan suatu nilai batas yang disebut nilai threshold. <i>Ordered Dithering</i> dilakukan dengan membandingkan tiap blok dari citra asli dengan sebuah matriks pembatas (matriks <i>treshold</i>) yang disebut dengan matriks <i>dither</i>. Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi hitam (0) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi putih (1). Masing-masing elemen dari blok asli dikuantisasi sesuai dengan nilai batas pada pola <i>dither</i>. Nilai-nilai pada matriks <i>dither</i> adalah tetap, tetapi bisa bervariasi sesuai dengan jenis citra. Matriks <i>dither</i> yang digunakan berukuran 4 x 4 dan 8 x 8:
+<p align="justify">Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra. Dalam proses ini dibutuhkan suatu nilai batas yang disebut nilai threshold. <i>Ordered Dithering</i> dilakukan dengan membandingkan tiap blok dari citra asli dengan sebuah matriks pembatas (matriks <i>treshold</i>) yang disebut dengan matriks <i>dither</i>. Nilai intensitas citra yang lebih dari atau sama dengan nilai <i>threshold</i> akan diubah menjadi hitam (0) sedangkan nilai intensitas citra yang kurang dari nilai <i>threshold</i> akan diubah menjadi putih (1). Citra keluaran dari hasil thresholding adalah berupa citra biner. Nilai <i>threshold</i> matriks dapat ditentukan dengan persamaan :
 
 <p><img src="img/foto1.png" width="350px">
 
-<p><img src="img/foto2.png" width="380px">
+keterangan :
 
-<p align="justify">Untuk setiap matriks pembatas, terdapat threshold matriks yang sesuai digunakan untuk membuat citra halftone. Nilai threshold matriks dapat ditentukan dari pembatas matriks dengan persamaan :
+f(x, y) = citra grayscale
 
-<p><img src="img/foto3.png" width="550px">
+g(x, y) = citra biner
 
-<p align="justify">Citra asli memiliki matriks lebih besar dari pada matriks threshold, maka pola dither dilakukan berkala atau secara terus menerus terhadap seluruh piksel citra. Secara spesifik operasi dapat dilihat pada persamaan : 
-
-<p><img src="img/foto4.png" width="550px">
+<p>T &nbsp &nbsp &nbsp &nbsp = nilai treshold
 
 <br>
 
