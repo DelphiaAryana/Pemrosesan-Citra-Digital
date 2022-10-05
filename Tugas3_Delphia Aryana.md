@@ -3,11 +3,11 @@ Nama : Delphia Aryana
 
 NIM : 2110131220012
 
-<p align="center"><img src="img/gambar9.png" width="450px">
+<p><img src="img/gambar9.png" width="450px">
 
 ## Ligthness Method
 
-<p align="center"><img src="img/gambar10.png" width="450px">
+<p><img src="img/gambar10.png" width="450px">
 
 <p align="justify">Metode yang sangat sederhana adalah dengan mengambil nilai rata-rata yaitu menjumlahkan nilai tertinggi dan terendah. Kita dapat dengan mudah melihat bahwa metode ini menghadirkan kelemahan yang sangat serius karena satu komponen RGB tidak digunakan. Ini jelas merupakan masalah karena jumlah cahaya yang dilihat mata kita bergantung pada ketiga warna dasar.
 
@@ -15,13 +15,13 @@ NIM : 2110131220012
 
 ## Average Mathod
 
-<p align="center"><img src="img/gambar11.png" width="450px">
+<p><img src="img/gambar11.png" width="450px">
 
 <p align="justify">Cara lain adalah dengan mengambil nilai rata-rata dari ketiga komponen (merah, hijau, dan biru). Meskipun sekarang kita memperhitungkan semua komponen, metode rata-rata juga bermasalah karena memberikan bobot yang sama untuk setiap komponen. Berdasarkan penelitian tentang penglihatan manusia, kita tahu bahwa mata kita bereaksi terhadap setiap warna dengan cara yang berbeda. Secara khusus, mata kita lebih sensitif terhadap hijau, lalu merah, dan akhirnya biru. Oleh karena itu, bobot dalam persamaan di atas harus berubah.
 
 ## Luminosity Method
 
-<p align="center"><img src="img/gambar12.png" width="450px">
+<p><img src="img/gambar12.png" width="450px">
 
 <p align="justify">Metode terbaik adalah metode luminositas yang berhasil memecahkan masalah metode sebelumnya. Berdasarkan pengamatan di atas, kita harus mengambil rata-rata tertimbang dari komponen. Kontribusi warna biru pada nilai akhir harus berkurang, dan kontribusi warna hijau harus meningkat. Metode lightness cenderung mengurangi kontras. Metode luminositas bekerja paling baik secara keseluruhan dan merupakan metode default yang digunakan jika Anda meminta untuk mengubah gambar dari RGB ke skala abu-abu.
 
@@ -92,11 +92,16 @@ Berikut merupakan contoh menghasilkan gambar halftoning digital dari PAINTER men
 
 ## Menentukan Matriks Dithering (Matriks Treshold)
 
-<p align="justify"><i>Ordered Dithering</i> dilakukan dengan membandingkan tiap blok dari citra asli dengan sebuah matriks pembatas (matriks <i>treshold</i>) yang disebut dengan matriks <i>dither</i>. Masing-masing elemen dari blok asli dikuantisasi sesuai dengan nilai batas pada pola <i>dither</i>. Nilai-nilai pada matriks <i>dither</i> adalah tetap, tetapi bisa bervariasi sesuai dengan jenis citra. Matriks <i>dither</i> yang digunakan berukuran 4 x 4 dan 8 x 8:
+<p align="justify">Thresholding merupakan salah satu metode segmentasi citra di mana prosesnya didasarkan pada perbedaan derajat keabuan citra. Dalam proses ini dibutuhkan suatu nilai batas yang disebut nilai threshold. Nilai intensitas citra yang lebih dari atau sama dengan nilai threshold akan diubah menjadi hitam (0) sedangkan nilai intensitas citra yang kurang dari nilai threshold akan diubah menjadi putih (1).
 
-<p><img src="img/foto1.png" width="400px">
+<br>
 
-<p><img src="img/foto2.png" width="450px">
+### Mengapa hasil dithering dengan matriks dither besar lebih baik dari matriks dither kecil?
+
+<p align="justify">Perbedaan antara keluaran yang dihasilkan antara matriks dithering kecil dan matriks dithering besar terletak pada sensitifitas nilai piksel aslinya. Contohnya pada 4 x 4 matriks dithering dengan 16 x 16 matriks dithering. Citra yang dihasilkan dari penggunaaan matriks 4x4 memiliki pola halftone yang kurang dibandingkan dengan citra yang diproses menggunakan matriks dithering 16x16. Karena itu hasil dari citra dengan 4x4 matriks dithering memiliki banyak daerah dengan pola yang sama, sehingga hasil yang ditampilkan menjadi kurang baik dibandingkan dithering dengan matriks 16 x 16.
+
+
+
 
 
 
