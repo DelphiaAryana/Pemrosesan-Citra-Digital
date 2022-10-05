@@ -92,7 +92,7 @@ Mungkin saja kita membuat ilusi dari beberapa tingkat keabuan di dalam sebuah ci
 
 Untuk sebagian besar tujuan dithering, cukup menambahkan nilai ambang batas ke setiap piksel (tanpa melakukan normalisasi dengan mengurangi 1⁄2), atau secara setara, untuk membandingkan nilai piksel dengan ambang batas: jika nilai kecerahan piksel kurang dari nomor di sel matriks yang sesuai, plot piksel itu hitam, jika tidak, plot putih.
 
-<p align="center"><img src="img/gambar5.png" width="800px">
+<p align="center"><img src="img/gambar5.png" width="600px">
 
 <br>
 
