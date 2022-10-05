@@ -76,3 +76,27 @@ Berikut merupakan contoh menghasilkan gambar halftoning digital dari PAINTER men
 
 <p align="center"><img src="img/gambar5.png" width="800px">
 
+<br>
+
+## Menentukan Pola pada Patterning dan Dithering
+
+1. Patterning
+
+<p align="justify">Untuk mengetahui banyaknya pola pada patterning, dapat langsung kita tentukan dengan menghitung banyaknya font biner atau pattern pengganti terlebih dahulu kemudian ditambahkan dengan 1. Contohnya, saat kita menggunakan 4 x 4 font biner, maka banyaknya pola didapat adalah 17 pola. Pola yang ada pada patterning tidak boleh sama, pola yang sudah ada tidak boleh digunakan lagi (diputar dianggap sama).
+
+<p align="center"><img src="img/gambar6.png" width="400px">
+
+2. Dithering
+
+<br>
+
+## Menentukan Matriks Dithering (Matriks Treshold)
+
+<p align="justify"><i>Ordered Dithering</i> dilakukan dengan membandingkan tiap blok dari citra asli dengan sebuah matriks pembatas (matriks <i>treshold</i>) yang disebut dengan matriks <i>dither</i>. Masing-masing elemen dari blok asli dikuantisasi sesuai dengan nilai batas pada pola <i>dither</i>. Nilai-nilai pada matriks <i>dither</i> adalah tetap, tetapi bisa bervariasi sesuai dengan jenis citra. Matriks <i>dither</i> yang digunakan berukuran 4 x 4 dan 8 x 8:
+
+<p><img src="img/foto1.png" width="400px">
+
+<p><img src="img/foto2.png" width="450px">
+
+
+
