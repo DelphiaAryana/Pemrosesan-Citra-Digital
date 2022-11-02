@@ -3,7 +3,7 @@
 ### NIM : 2110131220012
 <br>
 
-<h1 align="center">Pseudocode Algoritma Patterning, Dithering, Bit Plane Slicing, dan Histogram Equalization</h1>
+<h1 align="center">Algoritma Patterning, Dithering, Bit Plane Slicing, dan Histogram Equalization</h1>
 
 ### 1) Patterning 
 
