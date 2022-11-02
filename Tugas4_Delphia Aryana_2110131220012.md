@@ -3,7 +3,7 @@
 ### NIM : 2110131220012
 <br>
 
-<h1 align="center">Algoritma Patterning, Dithering, Bit Plane Slicing, dan Histogram Equalization</h1>
+<h2 align="center">Algoritma Patterning, Dithering, Bit Plane Slicing, dan Histogram Equalization</h2>
 
 ### 1) Patterning 
 
