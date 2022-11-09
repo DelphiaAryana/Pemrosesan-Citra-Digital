@@ -4,9 +4,7 @@ Nama : Delphia Aryana
 
 NIM : 2110131220012
 
-<br>
-
-<h2 align="center">Spatial Frequency Domain </h2>
+<h1 align="center">Spatial Frequency Domain </h1>
 
 <p align="justify">Metode untuk perbaikan kualitas citra <i>(image enhancement)</i> dapat dikelompokkan menjadi 2 kategori :
 
