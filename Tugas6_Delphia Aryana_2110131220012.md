@@ -15,7 +15,7 @@ NIM : 2110131220012
 
 <br>
 
-### 1. Domain Spasial 
+### 1) Domain Spasial 
 
 <p align="justify">Metode-metode <i>Image Enhancement</i> dalam ranah spasial dilakukan dengan memanipulasi secara langsung <i>pixel-pixel</i> di dalam citra. Domain spasial melibatkan operasi konvolusi, sehingga komputasinya lebih tinggi dan prosesnya lebih kompleks.
 
@@ -34,7 +34,7 @@ Keterangan :
 
 <br>
 
-### 2. Domain Frekuensi
+### 2) Domain Frekuensi
 
 <p align="justify">Metode-metode <i>Image Enhancement</i> dalam ranah frekuensi dilakukan dengan mengubah citra terlebih dahulu dari ranah spasial ke ranah frekuensi, baru kemudian memanipulasi nilai-nilai frekuensi tersebut. Domain frekuensi hanya dapat dilakukan pada aras global dan tidak melibatkan operasi konvolusi, sehingga komputasinya rendah cepat dan prosesnya relatif simple.
 
