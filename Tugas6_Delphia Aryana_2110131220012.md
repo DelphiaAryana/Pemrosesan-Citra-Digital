@@ -91,7 +91,7 @@ Rumus :
 
 <p align="center"><img src="img/photo13.png" width="400px">
 
-Contoh Hasil :
+<p align="center">Contoh Hasil :
 
 <p align="center"><img src="img/photo14.png" width="500px">
 
