@@ -82,7 +82,7 @@ Rumus :
 
 3. __Histogram Equalization__
 
-<p align="justify"> Histogram merupakan diagram yang menunjukkan jumlah kemunculan grey level (0-255) pada suatu citra. 
+<p align="justify">Histogram merupakan diagram yang menunjukkan jumlah kemunculan grey level (0-255) pada suatu citra. 
 
 - Gambar gelap : histogram cenderung ke sebelah kiri.
 - Gambar terang : histogram cenderung ke sebelah kanan.
@@ -91,10 +91,47 @@ Rumus :
 
 <p align="center"><img src="img/photo13.png" width="400px">
 
+Contoh Hasil :
+
+<p align="center"><img src="img/photo14.png" width="500px">
+
+<br>
+
 4. __Image Substraction__
+
+<p align="justify">Image Substaction dilakukan jika kita ingin mengambil bagian tertentu saja dari citra.
+
+Contoh Hasil :
+
+<img src="img/photo15.png" width="400px">
+
+<br>
+
 5. __Image Averaging__
 
+<p align="justify">Dilakukan jika kita memiliki beberapa citra yang bergambar sama, namun semua citra memiliki noise (gangguan). Noise satu citra berbeda dengan noise citra lainnya (tidak berkolerasi). Cara memperbaikinya adalah dengan melakukan operasi rata-rata terhadap semua citra tersebut.
 
+<img src="img/photo16.png" width="280px">
+
+<br>
+
+### b. _Mask Processing_ 
+
+<p align="justify">Jika pada <i>point processing</i> kita hanya melakukan operasi terhadap masing-masing piksel, maka pada <i>mask processing</i> kita melakukan operasi terhadap suatu jendela ketetanggaan pada citra. Kemudian kita menerapkan (mengkonvolusikan) suatu <i>mask</i> terhadap jendela tersebut. <i>Mask</i> sering juga disebut <i>filter</i>.
+
+Contoh 1 :
+
+<img src="img/photo17.png" width="180px">
+
+<p align="justify">Jendela ketetanggaan 3x3. Nilai pixel pada posisi x dipengaruhi oleh nilai 8 tetangganya. Perbedaan dengan <i>point processing</i>, nilai pada suatu piksel tidak dipengaruhi oleh nilai tetangga-tetangganya.
+
+Contoh 2 :
+
+<img src="img/photo18.png" width="180px">
+
+Sebuah mask berukuran 3x3. Filter ini akan diterapkan/dikonvolusikan pada setiap jendela ketetanggaan 3x3 pada citra (anggap filter sudah dalam bentuk terbalik).
+
+<img src="img/photo19.png" width="500px">
 
 
 
