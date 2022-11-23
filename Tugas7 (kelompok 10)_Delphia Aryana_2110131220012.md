@@ -1,7 +1,3 @@
-<h3 align="center"><b>TUGAS 7</b></h2>
-
-<h2 align="center"><b>Pemrosesan Citra Digital</b></h2>
-
 ### __KELOMPOK 10 :__
 - Khoyrur Roykhan
 - Delphia Aryana
@@ -18,7 +14,7 @@
 1. Semua koefisien kernel harus positif
 2. Jumlah semua koefisien kernel harus sama dengan 1
 
-Contoh kernel  yang dapat digunakan pada low-pass filtering adalah
+Contoh kernel  yang dapat digunakan pada low-pass filtering adalah :
 
 <p align="center"><img width="700" src="img/kernel low pass.jpg"></p>
 
@@ -31,16 +27,16 @@ Low-pass filtering menggunakan kernel (iii) disebut juga __neighborhood averagin
 Hasil :
 
 - Citra Asli
-<p><img width="350" src="img/figure1.png"></p>
+<p align="center"><img width="400" src="img/figure1.png"></p>
 
 - Citra Menggunakan Kernel 1
-<p><img width="350" src="img/figure2.png"></p>
+<p align="center"><img width="400" src="img/figure2.png"></p>
 
 - Citra Menggunakan Kernel 2
-<p><img width="350" src="img/figure3.png"></p>
+<p align="center"><img width="400" src="img/figure3.png"></p>
 
 - Citra Menggunakan Kernel 3
-<p><img width="350" src="img/figure4.png"></p>
+<p align="center"><img width="400" src="img/figure4.png"></p>
 
 <br>
 
