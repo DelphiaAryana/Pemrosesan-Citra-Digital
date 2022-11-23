@@ -65,4 +65,4 @@ Hasil :
 
 Output :
 
-<p align="center"><img width="500" src="img/output_highpass.png"></p>
+<p align="center"><img width="900" src="img/output_highpass.png"></p>
