@@ -20,11 +20,19 @@ Contoh kernel  yang dapat digunakan pada low-pass filtering adalah :
 
 Low-pass filtering menggunakan kernel (iii) disebut juga __neighborhood averaging.__ 
 
-### __Low Pass Filtering Menggunakan Octave__
+<h3 align="center">Kode LPF Manual</h3>
+
+<p align="center"><img width="550" src="img/lpf_manual.jpg"></p>
+
+<p align="center">Output :
+
+<p align="center"><img width="650" src="img/hasil_lpf_manual.jpg"></p>
+
+<h3 align="center">Kode Menggunakan Fungsi pada Octave</h3>
 
 <p align="center"><img width="700" src="img/kode.png"></p>
 
-Hasil :
+<p align="center">Output :
 
 - Citra Asli
 <p align="center"><img width="400" src="img/figure1.png"></p>
@@ -59,6 +67,14 @@ Hasil :
 3. Apabila jumlah koefisiennya berjumlah = 0, maka setiap elemen yang rendah frekuensinya nilainya akan menurun. 
 4. Namun, apabila total dari koefisien adalah = 1, maka elemen yang memiliki frekuensi rendah nilainya tetap sama dengan nilai semula.
 
+### __Kode HPF Manual__
+
+<p align="center"><img width="550" src="img/hpf_manual.jpeg"></p>
+
+Output :
+
+<p align="center"><img width="650" src="img/hasil_hpf_manual.jpeg"></p>
+
 ### __High Pass Filtering Menggunakan Octave__
 
 <p align="center"><img width="500" src="img/kode_highpass.png"></p>
@@ -66,3 +82,30 @@ Hasil :
 Output :
 
 <p align="center"><img width="900" src="img/output_highpass.png"></p>
+
+<br>
+
+<h1 align="center">Median Filtering</h1>
+
+<p align="justify"><i>Median Filtering</i> merupakan teknik penyaringan digital nonlinear, sering digunakan untuk menghilangkan noise. Penyaringan median sangat banyak digunakan dalam pemrosesan gambar digital karena mempertahankan tepi sambil menghilangkan <i>noise. Median Filtering</i> dilakukan pada matriks citra dengan cara mencari median dari piksel tetanggaan dengan menggunakan jendela yang menggeser piksel demi piksel.
+
+### __Bentuk Penerapan__
+
+<p align="justify">Penerapan dari <i>median filtering</i> dapat berupa untuk peningkatan kualitas citra gambar yang mengalami penurunan mutu citra, misalnya karena mengandung cacat atau derau <i>(noise)</i>. Contohnya adalah bintik hitam atau putih yang muncul secara acak yang tidak diinginkan di dalam citra. bintik acak ini disebut dengan derau <i>(noise) salt & pepper.</i>
+
+### Kode Median Filtering Manual
+
+<p align="center"><img width="550" src="img/median_manual.png"></p>
+
+Output :
+
+<p align="center"><img width="650" src="img/hasil_median_manual.jpeg"></p>
+
+### Kode Menggunakan Function pada Octave</h3>
+
+<p align="center"><img width="550" src="img/median_fungsi.png"></p>
+
+Output :
+
+<p align="center"><img width="650" src="img/hasil_median_fungsi.jpeg"></p>
+
