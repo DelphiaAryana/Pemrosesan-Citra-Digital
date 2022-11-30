@@ -89,7 +89,7 @@ Low-pass filtering menggunakan kernel (iii) disebut juga __neighborhood averagin
 
 <br>
 
-<h1 align="center">High-Boost Filtering<h1>
+<h1 align="center">High-Boost Filtering</h1>
 
 <p align="justify"><i>High Bost Filtering</i> merupakan salah satu bagian dari operasi yang dapat dilakukan untuk melakukan perbaikan citra. <i>High Bost Filtering</i>  dapat membuat citra  menjadi  lebih  tajam,  dengan  cara  meninggikan nilai-nilai frekuensi yang ada pada citra. <i>High Bost Filtering</i>  merupakan proses filter yang berasal dari citra dengan dasar pemrosesannya menggunakan metode <i>low pass filter</i> dan <i>high pass filter. High-Boost Filtering</i> bertujuan untuk mempertahankan (mempertajam) komponen frekuensi tinggi yang mewakili detail gambar tanpa menghilangkan komponen frekuensi rendah. 
 
@@ -132,7 +132,7 @@ ilustrasi dari High Boost Filtering :
 
 <p align="center">Output :
 <p align="center">
-    <img src=".jpg" >
+    <img src="img/hasil high boost_2.png" >
 </p>
 
 <br>
